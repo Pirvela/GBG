@@ -14,12 +14,37 @@
   font-family: Firago;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, nav > ul > li {
   font-family: Glaho;
 }
 
 .container {
   width: 60.5vw;
   margin: auto;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  position: absolute;
+  left: 0;
+  margin: 2.08vw;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+header nav ul li {
+  margin: 2.6vw 3.1vw 2.6vw 0;
 }
 /*# sourceMappingURL=main.css.map */

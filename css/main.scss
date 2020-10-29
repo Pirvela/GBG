@@ -15,7 +15,10 @@ h6,
 nav > ul > li {
   font-family: Glaho;
 }
-
+iframe {
+  height: 250px;
+  width: 30vw;
+}
 .container {
   width: 60.5vw;
   margin: auto;
@@ -75,5 +78,10 @@ footer {
   img {
     color: #ed5a34;
   }
+}
+
+.social {
+  justify-content: flex-end;
+  display: flex;
 }
 @import "_header.scss";

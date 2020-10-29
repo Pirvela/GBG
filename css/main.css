@@ -51,14 +51,7 @@ nav > ul > li {
       grid-template-columns: 1fr 1fr;
 }
 
-@media (max-width: 768px) {
-  .contact .grid {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-  }
-}
-
-.contact .grid .text {
+.contact .text {
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: 1fr 1fr 1fr;
@@ -68,7 +61,7 @@ nav > ul > li {
           align-items: center;
 }
 
-p {
+.contact .text p {
   border: 2px solid #1b1b1b;
   padding: 20px 30px;
   -webkit-margin-before: 1em;
@@ -94,6 +87,31 @@ p {
 
 i {
   padding-right: 10px;
+  color: #ed5a34;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 0px;
+  height: 70px;
+  background: #f7f7f7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer div {
+  width: 100%;
+}
+
+footer p {
+  margin-left: 20px;
+  display: inline-block;
+}
+
+footer img {
   color: #ed5a34;
 }
 

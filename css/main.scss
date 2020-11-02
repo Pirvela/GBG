@@ -68,12 +68,8 @@ footer {
   height: 70px;
   background: #f7f7f7;
   display: flex;
-  div {
-    width: 100%;
-  }
   p {
     margin-left: 20px;
-    display: inline-block;
   }
   img {
     color: #ed5a34;
@@ -83,5 +79,14 @@ footer {
 .social {
   justify-content: flex-end;
   display: flex;
+}
+.racxa {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  i {
+    margin-left: 25px;
+  }
 }
 @import "_header.scss";
